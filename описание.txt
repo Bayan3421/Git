@@ -17,3 +17,11 @@ git config --local/global user.email ваша почта - почта
 для того, что бы посмотреть в каком состаинии проект в консоли надо прописать git status
 
 Что бы перенести файлы в index нужно испоьзовать следующию команду git add -A 
+Что бы перевести фалы в состояние commit пишем git commit -a -m"first commit"
+-a all добавить все файлы 
+-m massage сообщение или описание коммита
+
+git log - посмотреть какие commit(изменения) были, когда они были и кем были изменены
+
+git remote add origin https://github.com/Bayan3421/Git.git - команда remote add: добавляем удалённый репазиторий;
+origin: называем этот репазиторий; https://github.com/Bayan3421/Git.git - прописываем url к этому репазиторию  
